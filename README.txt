@@ -1,1 +1,6 @@
-попробовала добавить инфу по ip адресам. Визуализация классов вышла лучше, чем без доп признаков, однако silhoette davies_bouldin scores вышли намного хуже (-0.01 и 1.01 соответственно). К тому же адекватное кол-во классов (46) получается при min_samples=100, что может быть не совсем корректно-тк аномальных трафик может и не содержать такого кол-ва примеров.
+Файл task_anomaly_detection_dbscan_ip_info.ipynb содержит ноутбук с применением алг-ов dbscan, hdbscan, GaussianMixture, KMeans на оригинальном датафрейме.
+Файл task_anomaly_detection_dbscan_ip_info.ipynb содержит ноутбук с применением алг-ов dbscan, hdbscan, GaussianMixture, KMeans на датафрейме с оригинальными признаками и дополнительными, которые содержат инф-ию ipv4 адресов: ['timezone', 'status', 'mobile', 'proxy', 'hosting'].
+В целом, получила кол-во классов = 47 на dbscan, kmeans.
+Файл part_10.csv - оригинальный датасет.
+Файл VALID_IP_INFO.csv содержит доп инфу для валидных ipv4 адресов.
+CLuster_label_dist.png, DBSCAN_47classes_ip_info.png, timezone_proxy_variable.png, timezone_useragent_responsecode.png - картинки с визуализацией работы DBSCAN
