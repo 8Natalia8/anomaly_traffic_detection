@@ -5,3 +5,4 @@
 5.  Файл **Test_original_result.csv** содержит итоговый результат для входного набора данных,исключая только полностью пустые строки.
 6. **CLuster_label_dist.png**, **DBSCAN_47classes_ip_info.png**, **timezone_proxy_variable.png**, **timezone_useragent_responsecode.png** - картинки с визуализацией работы DBSCAN.
 7. В целом, получила **кол-во классов = _48 (для метода без исп. доп признаков, файл под п.1.) и 47/48_ (для метода с доп. признаками, файл под п.2.)** на dbscan, kmeans.
+8. docker container лежит здесь: https://hub.docker.com/r/5849/pt_task 
